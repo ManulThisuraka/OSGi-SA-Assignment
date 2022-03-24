@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: FillingStationChargingConsumer
+Bundle-SymbolicName: FillingStationChargingConsumer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: fillingstationchargingconsumer.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: FillingStationChargingConsumer
+Import-Package: com.sa.osgi.charge.model,
+ com.sa.osgi.chargeconstant,
+ com.sa.osgi.chargingstorage,
+ fillingstationchargingproducer,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: fillingstationchargingconsumer

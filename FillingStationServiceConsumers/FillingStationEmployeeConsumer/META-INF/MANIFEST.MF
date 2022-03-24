@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: FillingStationEmployeeConsumer
+Bundle-SymbolicName: FillingStationEmployeeConsumer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: fillingstationemployeeconsumer.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: FillingStationEmployeeConsumer
+Import-Package: employeelist,
+ employeemodel,
+ fillingstationemployeeconsumer,
+ fillingstationemployeeproducer,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: fillingstationemployeeconsumer

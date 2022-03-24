@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: FillingStationGasProducer
+Bundle-SymbolicName: FillingStationGasProducer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: fillingstationgasproducer.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: FillingStationGasProducer
+Import-Package: org.osgi.framework;version="1.3.0"
+Export-Package: com.sa.osgi.gas.model,
+ com.sa.osgi.gasconstant,
+ fillingstationgasproducer

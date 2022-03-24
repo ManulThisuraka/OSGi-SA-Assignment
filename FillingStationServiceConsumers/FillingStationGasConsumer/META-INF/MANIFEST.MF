@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: FillingStationGasConsumer
+Bundle-SymbolicName: FillingStationGasConsumer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: fillingstationgasconsumer.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: FillingStationGasConsumer
+Import-Package: com.sa.osgi.gas.model,
+ com.sa.osgi.gasconstant,
+ fillingstationgasproducer,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: fillingstationgasconsumer
